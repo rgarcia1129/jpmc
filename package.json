@@ -1,0 +1,23 @@
+{
+  "name": "jpmc-code-challenge",
+  "version": "1.0.0",
+  "description": "javascript code challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "test": "mocha --require @babel/register \"test/**-tests.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  },
+  "dependencies": {
+    "chai-as-promised": "^7.1.1"
+  }
+}
